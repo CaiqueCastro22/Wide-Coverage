@@ -1,0 +1,149 @@
+
+
+* {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+
+}
+
+
+.cabeçalho {
+    width: 87;
+    height: 20;
+    margin-left: 42px;
+    margin-top: 47px;
+
+}
+
+.links-h {
+    
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 35px;
+    cursor: pointer;
+    color: #17233D;
+
+}
+.botao {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+    background: #6FBF44;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.logo-image {
+    display: inline-block;
+    width: 595px;
+    height: 500px;
+    margin-top: 160px;
+    margin-left: 121px;
+    margin-right: 60px;
+    cursor: pointer;
+    position: absolute;
+    left: 1px;
+
+}
+
+main {
+
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 82px;
+    margin-top: 250px;
+    margin-left: 801px;
+}
+
+
+
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    max-width: 500px;
+     color: #161A49;
+     
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: 60px;
+    max-width: 480px;
+    color: #4B505A;
+} 
+
+#link-main {
+    font-weight: 500;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+
+    .links-h{
+        display: none;
+    }
+
+    
+    .botao{
+        display: block;
+        width: 91;
+        height: 31;
+        opacity: 1;
+        border-radius: 6px;
+       border: none;
+        margin-left: 50vw;
+        margin-bottom: 0px;
+
+    }
+
+    main {
+        display: block;
+        margin: 20vw auto 0 auto
+
+    }
+
+    h1 {
+       
+    font-size: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: normal;
+}
+
+p{
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+letter-spacing: 0.5px;
+text-align: center;
+margin: 10px auto 0 auto;
+
+}
+
+#link-main {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-image{
+    width: 312px;
+height: 288px;
+opacity: 1;
+margin: 0 auto;
+}
+}
